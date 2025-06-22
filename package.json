@@ -1,13 +1,14 @@
 {
-  "name": "capcut",
+  "name": "wavespeed-auto-referral",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Automated referral system for wavespeed.ai",
+  "main": "wavespeed-referral.js",
   "type": "module",
   "scripts": {
+    "start": "node wavespeed-referral.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["wavespeed", "referral", "automation", "ai"],
   "author": "",
   "license": "ISC",
   "dependencies": {
