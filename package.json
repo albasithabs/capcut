@@ -1,14 +1,15 @@
 {
-  "name": "wavespeed-auto-referral",
+  "name": "capcut-account-creator",
   "version": "1.0.0",
-  "description": "Automated referral system for wavespeed.ai",
-  "main": "wavespeed-referral.js",
+  "description": "Automated account creation for Capcut",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node wavespeed-referral.js",
+    "start": "node index.js",
+    "create": "node crateacc.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["wavespeed", "referral", "automation", "ai"],
+  "keywords": ["capcut", "account", "automation"],
   "author": "",
   "license": "ISC",
   "dependencies": {
